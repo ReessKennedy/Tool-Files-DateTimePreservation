@@ -1,14 +1,12 @@
 ## What ℹ️
 Easily and quickly change, tame and backup file dates via your terminal. No need to remember bash commands or proper date format syntax, these six php scripts will prompt you for necessary info to do what you wish to do and use php's very flexible strtotime function to allow resilience with the entered date and time values. 
-
-
 ## Why 🤷‍♂️
 - File dates sometimes are changed by tools without user consent or knowledge
 - GoogleDrive and other cloud services, or backup tools, will do this when restoring files
 - I have been burned by file date changes before and there aren't many good Mac apps to help with file DateTime changes and Macs don't have great way to change dates that is built into the user interface of the operating system. 
 - Remembering dash commands for changing file meta is annoying AND remembering proper DateTime formatting is also annoying and this endeavors to fix both of these things. 
-
 ## Date Actions ⚙️
+Disclaimer: These tools edit file information and while I'm confident you'll be okay, make sure you have a backup of your files.
 
 ### Redate File
 Update the creation date for one file at a time. See usage via embedded GIF. 
@@ -31,6 +29,7 @@ Useful as a backup method or when you want to view files with various names in c
 See GIF for usage. 
 
 ![|500](https://drive.google.com/uc?id=16mMi-1FntVF0te7OYE1q5qq0Wo71BJyX&usp=drive_fs)
+
 ### Search for Filenames & Return Dates
 Create a CSV list of filenames and then search for all these names in a specified directory and return the file dates for these files. 
 
