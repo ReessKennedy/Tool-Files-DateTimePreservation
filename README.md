@@ -29,6 +29,7 @@ Useful as a backup method or when you want to view files with various names in c
 
 ### Removing added dates from filename
 See GIF for usage. 
+
 ![|500](https://drive.google.com/uc?id=16mMi-1FntVF0te7OYE1q5qq0Wo71BJyX&usp=drive_fs)
 ### Search for Filenames & Return Dates
 Create a CSV list of filenames and then search for all these names in a specified directory and return the file dates for these files. 
