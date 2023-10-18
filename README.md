@@ -5,14 +5,16 @@ Easily and quickly change, tame and backup file dates via your terminal. No need
 - GoogleDrive and other cloud services, or backup tools, will do this when restoring files
 - I have been burned by file date changes before and there aren't many good Mac apps to help with file DateTime changes and Macs don't have great way to change dates that is built into the user interface of the operating system. 
 - Remembering dash commands for changing file meta is annoying AND remembering proper DateTime formatting is also annoying and this endeavors to fix both of these things. 
+
 ## Date Actions ⚙️
 Disclaimer: These tools edit file information and while I'm confident you'll be okay, make sure you have a backup of your files.
-
 ### Redate File
 Update the creation date for one file at a time. See usage via embedded GIF. 
 
 ![|500](https://drive.google.com/uc?id=16qF2w0HHNsjwiZzAoW3pVZeFP3viGuxa&usp=drive_fs)
 
+
+==Bash version==: I also snuck in here a fully bash version aRedateFile.sh. The php version may be more resilient but if you don't have PHP installed the bash version is nice too. It also gives you the ability to set the file changing function between SetFile, if you're on a Mac so you have the ability to also forward-date files, and touch as the default on other machines. 
 
 ### Redate File From CSV
 Redate many files at once using a CSV file storing filepath and date information. See gif embedded below and sample .csv included with the repository. 
@@ -36,7 +38,11 @@ Create a CSV list of filenames and then search for all these names in a specifie
 This is very useful if something has gone wrong with your files in GoogleDrive. In this case, you could just replace these files with the files from a backup but then all your files will be reuploaded and treated as new files which can be a big problem if you have shared these files online because all these links will now break as new IDs will be issued by Google for these new files. This is why having a way to programmatically update these dates by looking at a backup containing the proper dates is helpful. 
 
 ![|500](https://drive.google.com/uc?id=16nTxk-NLvtOax4E72ciRw3PNCLiarM-x&usp=drive_fs)
+
 ### Backup Dates for Files
 This allows you to specify a directory and then create a CSV containing all filepaths in that directory, filenames and important defining meta data include file size, width and timestamp ... in the event file dates are changed, this can serve as an additional possible backup method to restore dates. 
 
 ![|500](https://drive.google.com/uc?id=16sBXINX6vpiRmW9mW6OZsVmeEKlY6dam&usp=drive_fs)
+
+
+
