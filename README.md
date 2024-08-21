@@ -33,6 +33,7 @@ Update the creation date for one file at a time. Just follow prompts after runni
 
 ### Redate File From CSV
 Redate many files at once using a CSV file storing filepath and date information. See gif embedded below and sample .csv included with the repository. 
+
 ![|400](https://drive.google.com/thumbnail?id=1olhlwe3DHTp-FPFfCFNELPA9rfgJLMlL&usp=drive_fs&sz=s4000)
 
 Note: 
@@ -55,12 +56,14 @@ Useful as a backup method or when you want to view files with various names in c
 ### Removing added dates from filename
 
 See GIF for usage. 
+
 ![|400](https://drive.google.com/thumbnail?id=1orTJPv9jCipauTTlAJpULuJdYaDLATJR&usp=drive_fs&sz=s4000)
 
 ### Search for Filenames & Return Dates
 Create a CSV list of filenames and then search for all these names in a specified directory and return the file dates for these files. 
 
 This is very useful if something has gone wrong with your files in GoogleDrive. In this case, you could just replace these files with the files from a backup but then all your files will be reuploaded and treated as new files which can be a big problem if you have shared these files online because all these links will now break as new IDs will be issued by Google for these new files. This is why having a way to programmatically update these dates by looking at a backup containing the proper dates is helpful. 
+
 ![|400](https://drive.google.com/thumbnail?id=1okYrzHh9K_n9ZVNgfP4Yd9QkTigWqZWP&sz=s4000)
 
 
